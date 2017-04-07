@@ -1,0 +1,3 @@
+all:
+	 g++ main.cpp  shaders/shaders.cpp texture.cpp Player.cpp shell.cpp UI.cpp read_lvl_from_file.cpp map.cpp map_controller.cpp  ParserObjFormat/getValues.cpp ParserObjFormat/getStringElements.cpp -lGL -lGLU -lglut -lGLEW  -lSOIL -o main
+

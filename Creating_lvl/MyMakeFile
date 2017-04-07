@@ -1,0 +1,3 @@
+all:
+	 g++ creating_lvl.cpp ../shaders/shaders.cpp ../texture.cpp load_lvl_in_file.cpp -lGL -lGLU -lglut -lGLEW  -lSOIL -o creating_lvl
+
